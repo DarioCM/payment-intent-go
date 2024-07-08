@@ -8,6 +8,10 @@ func returnValue() {
 
 	fmt.Println(caugthValue)
 
+	someString, someInt, someBool := returnsMultiple()
+
+	fmt.Println(someString, someInt, someBool)
+
 }
 
 func returnsValue(somethig string) string {
