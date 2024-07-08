@@ -13,3 +13,7 @@ func returnValue() {
 func returnsValue(somethig string) string {
 	return somethig
 }
+
+func returnsMultiple() (string, int, bool) {
+	return "string", 1, true
+}
